@@ -1,7 +1,8 @@
 {
   "name": "nuke-em",
-  "version": "0.0.1",
-  "description": "Delete all node_modules folders from a directory. I say we take off, nuke the site from orbit. It\\'s the only way to be sure. ",
+  "version": "0.0.2",
+	"description": "Delete all node_modules folders from a directory. I say we take off, nuke the site from orbit. It\\'s the only way to be sure. ",
+	"repository": "github:matthewbeta/nuke-em",
   "main": "bin/index.js",
   "bin": {
     "nuke-em": "./bin/index.js"
