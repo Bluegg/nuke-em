@@ -1,0 +1,24 @@
+{
+  "name": "nuke-em",
+  "version": "0.0.1",
+  "description": "Delete all node_modules folders from a directory. I say we take off, nuke the site from orbit. It\\'s the only way to be sure. ",
+  "main": "bin/index.js",
+  "bin": {
+    "nuke-em": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node_modules",
+    "delete"
+  ],
+  "author": "matthewbeta",
+  "license": "MIT",
+  "dependencies": {
+    "node-cmd": "^3.0.0",
+    "ora": "^4.0.4",
+    "prompts": "^2.3.2",
+    "yargs": "^15.3.1"
+  }
+}
